@@ -1,0 +1,10 @@
+color,size,name
+red,10,sonu
+green,20,monu
+blue,30,monu
+red,10,sonu
+blue,20,chintu
+green,30,sonu
+pink,20,pintu
+green,10,monu
+

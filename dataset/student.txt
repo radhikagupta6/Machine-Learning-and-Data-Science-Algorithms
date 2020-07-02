@@ -1,0 +1,4 @@
+Name,Age,Marks
+son@u,20,78%
+m4onu,20Ys,88%
+chi_ntu,25y,78.6
