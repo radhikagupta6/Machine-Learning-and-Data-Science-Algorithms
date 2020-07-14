@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="Budget <= 37982.312\nmse = 340211131.017\nsamples = 404\nvalue = 45178.713", fillcolor="#f8dbc7"] ;
+1 [label="Trailer_views <= 440172.5\nmse = 150397028.852\nsamples = 329\nvalue = 39150.152", fillcolor="#fae5d7"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Marketing expense <= 135.638\nmse = 77238706.48\nsamples = 153\nvalue = 30351.634", fillcolor="#fdf4ed"] ;
+1 -> 2 ;
+3 [label="mse = 46827239.506\nsamples = 90\nvalue = 35137.778", fillcolor="#fbece1"] ;
+2 -> 3 ;
+4 [label="mse = 41209795.918\nsamples = 63\nvalue = 23514.286", fillcolor="#ffffff"] ;
+2 -> 4 ;
+5 [label="Director_rating <= 9.168\nmse = 88194771.436\nsamples = 176\nvalue = 46798.864", fillcolor="#f7d9c3"] ;
+1 -> 5 ;
+6 [label="mse = 56301679.218\nsamples = 174\nvalue = 46187.356", fillcolor="#f7dac4"] ;
+5 -> 6 ;
+7 [label="mse = 0.0\nsamples = 2\nvalue = 100000.0", fillcolor="#e58139"] ;
+5 -> 7 ;
+8 [label="Budget <= 41312.535\nmse = 314082090.667\nsamples = 75\nvalue = 71624.0", fillcolor="#efb082"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Marketing expense <= 167.869\nmse = 153862452.903\nsamples = 51\nvalue = 63043.137", fillcolor="#f2be99"] ;
+8 -> 9 ;
+10 [label="mse = 83284722.222\nsamples = 48\nvalue = 65183.333", fillcolor="#f1ba93"] ;
+9 -> 10 ;
+11 [label="mse = 37226666.667\nsamples = 3\nvalue = 28800.0", fillcolor="#fdf6f1"] ;
+9 -> 11 ;
+12 [label="Budget <= 48561.809\nmse = 165591597.222\nsamples = 24\nvalue = 89858.333", fillcolor="#e89253"] ;
+8 -> 12 ;
+13 [label="mse = 76547599.244\nsamples = 23\nvalue = 91860.87", fillcolor="#e88e4e"] ;
+12 -> 13 ;
+14 [label="mse = 0.0\nsamples = 1\nvalue = 43800.0", fillcolor="#f8deca"] ;
+12 -> 14 ;
+}
