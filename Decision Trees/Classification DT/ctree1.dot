@@ -1,0 +1,28 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="Budget <= 30694.152\ngini = 0.497\nsamples = 404\nvalue = [186, 218]", fillcolor="#e2f1fb"] ;
+1 [label="gini = 0.157\nsamples = 35\nvalue = [3, 32]", fillcolor="#4ca6e7"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Collection <= 63100.0\ngini = 0.5\nsamples = 369\nvalue = [183, 186]", fillcolor="#fcfdff"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="Time_taken <= 194.08\ngini = 0.495\nsamples = 308\nvalue = [170, 138]", fillcolor="#fae7da"] ;
+2 -> 3 ;
+4 [label="Budget <= 37146.285\ngini = 0.499\nsamples = 270\nvalue = [141, 129]", fillcolor="#fdf4ee"] ;
+3 -> 4 ;
+5 [label="gini = 0.5\nsamples = 233\nvalue = [114, 119]", fillcolor="#f7fbfe"] ;
+4 -> 5 ;
+6 [label="gini = 0.394\nsamples = 37\nvalue = [27, 10]", fillcolor="#efb082"] ;
+4 -> 6 ;
+7 [label="gini = 0.361\nsamples = 38\nvalue = [29, 9]", fillcolor="#eda876"] ;
+3 -> 7 ;
+8 [label="Collection <= 84000.0\ngini = 0.335\nsamples = 61\nvalue = [13, 48]", fillcolor="#6fb8ec"] ;
+2 -> 8 ;
+9 [label="Lead_ Actor_Rating <= 7.78\ngini = 0.42\nsamples = 40\nvalue = [12, 28]", fillcolor="#8ec7f0"] ;
+8 -> 9 ;
+10 [label="gini = 0.32\nsamples = 20\nvalue = [4, 16]", fillcolor="#6ab6ec"] ;
+9 -> 10 ;
+11 [label="gini = 0.48\nsamples = 20\nvalue = [8, 12]", fillcolor="#bddef6"] ;
+9 -> 11 ;
+12 [label="gini = 0.091\nsamples = 21\nvalue = [1, 20]", fillcolor="#43a2e6"] ;
+8 -> 12 ;
+}

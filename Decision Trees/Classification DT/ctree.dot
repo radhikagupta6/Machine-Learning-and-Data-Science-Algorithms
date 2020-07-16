@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="Budget <= 30694.152\ngini = 0.497\nsamples = 404\nvalue = [186, 218]", fillcolor="#e2f1fb"] ;
+1 [label="Marketing expense <= 24.613\ngini = 0.157\nsamples = 35\nvalue = [3, 32]", fillcolor="#4ca6e7"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Time_taken <= 151.66\ngini = 0.444\nsamples = 3\nvalue = [2, 1]", fillcolor="#f2c09c"] ;
+1 -> 2 ;
+3 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]", fillcolor="#399de5"] ;
+2 -> 3 ;
+4 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]", fillcolor="#e58139"] ;
+2 -> 4 ;
+5 [label="Producer_rating <= 9.552\ngini = 0.061\nsamples = 32\nvalue = [1, 31]", fillcolor="#3fa0e6"] ;
+1 -> 5 ;
+6 [label="gini = 0.0\nsamples = 31\nvalue = [0, 31]", fillcolor="#399de5"] ;
+5 -> 6 ;
+7 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]", fillcolor="#e58139"] ;
+5 -> 7 ;
+8 [label="Collection <= 63100.0\ngini = 0.5\nsamples = 369\nvalue = [183, 186]", fillcolor="#fcfdff"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Producer_rating <= 6.105\ngini = 0.495\nsamples = 308\nvalue = [170, 138]", fillcolor="#fae7da"] ;
+8 -> 9 ;
+10 [label="gini = 0.142\nsamples = 13\nvalue = [1, 12]", fillcolor="#49a5e7"] ;
+9 -> 10 ;
+11 [label="gini = 0.489\nsamples = 295\nvalue = [169, 126]", fillcolor="#f8dfcd"] ;
+9 -> 11 ;
+12 [label="Collection <= 87300.0\ngini = 0.335\nsamples = 61\nvalue = [13, 48]", fillcolor="#6fb8ec"] ;
+8 -> 12 ;
+13 [label="gini = 0.422\nsamples = 43\nvalue = [13, 30]", fillcolor="#8fc7f0"] ;
+12 -> 13 ;
+14 [label="gini = 0.0\nsamples = 18\nvalue = [0, 18]", fillcolor="#399de5"] ;
+12 -> 14 ;
+}
