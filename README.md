@@ -1,2 +1,2 @@
-# Machine-Learning-and-Data-Science-Algorithms
-This repo has implementation of various ML and Ds algos.
+# Machine Learning and Data Science Algorithms
+- This repository has the implementation of various Machine Learning and Data Science Algorithms.
