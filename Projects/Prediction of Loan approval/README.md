@@ -1,3 +1,2 @@
 ## Prediction of Loan approval
-- Its just the code work done for now
-- visualization will be added soon
+The prime objective of this project is to use machine learning and data analysis techniques to classify whether the loan of an applicant will be approved by the bank or not.
