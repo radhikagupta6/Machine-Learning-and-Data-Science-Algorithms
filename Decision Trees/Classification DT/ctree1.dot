@@ -17,7 +17,7 @@ node [shape=box, style="filled", color="black"] ;
 3 -> 7 ;
 8 [label="Collection <= 84000.0\ngini = 0.335\nsamples = 61\nvalue = [13, 48]", fillcolor="#6fb8ec"] ;
 2 -> 8 ;
-9 [label="Lead_ Actor_Rating <= 7.78\ngini = 0.42\nsamples = 40\nvalue = [12, 28]", fillcolor="#8ec7f0"] ;
+9 [label="Director_rating <= 7.745\ngini = 0.42\nsamples = 40\nvalue = [12, 28]", fillcolor="#8ec7f0"] ;
 8 -> 9 ;
 10 [label="gini = 0.32\nsamples = 20\nvalue = [4, 16]", fillcolor="#6ab6ec"] ;
 9 -> 10 ;

@@ -3,7 +3,7 @@ node [shape=box, style="filled", color="black"] ;
 0 [label="Budget <= 30694.152\ngini = 0.497\nsamples = 404\nvalue = [186, 218]", fillcolor="#e2f1fb"] ;
 1 [label="Marketing expense <= 24.613\ngini = 0.157\nsamples = 35\nvalue = [3, 32]", fillcolor="#4ca6e7"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="Time_taken <= 151.66\ngini = 0.444\nsamples = 3\nvalue = [2, 1]", fillcolor="#f2c09c"] ;
+2 [label="Director_rating <= 9.023\ngini = 0.444\nsamples = 3\nvalue = [2, 1]", fillcolor="#f2c09c"] ;
 1 -> 2 ;
 3 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]", fillcolor="#399de5"] ;
 2 -> 3 ;
