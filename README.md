@@ -1,4 +1,4 @@
-[TOC]
+
 
 # Machine Learning and Data Science Algorithms
 
